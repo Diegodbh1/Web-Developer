@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const numero1 = parseInt(prompt("Ingresa el primer número:"));
+      const numero2 = parseInt(prompt("Ingresa el segundo número:"));
+      
+      switch (numero1, numero2) {
+        case numero1 || numero2 <= 0 : {
+        alert('Uno de los numeros es menor') 
+        break
+        }
+     case numero1 || numero2 >= 0 : {
+
+      if (numero1 > numero2) {
+        console.log(`${numero1} es mayor que ${numero2}.`);
+      } else if (numero2 > numero1) {
+        console.log(`${numero2} es mayor que ${numero1}.`);
+      } else {
+        console.log(`Ambos números son iguales.`);
+      }
+    }
+    }
+    </script>
+  </body>
+</html>
